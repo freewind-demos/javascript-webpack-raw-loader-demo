@@ -1,3 +1,6 @@
-require('./index.css')
+const data = require('./data.txt')
+const css = require('raw-loader!./index.css')
 
-document.write('The body should have a yellow background color now')
+document.write(data)
+document.write('<hr/>')
+document.write(css)

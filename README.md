@@ -1,7 +1,7 @@
-Webpack Config File Demo
-========================
+JavaScript Webpack "raw-loader" Demo
+====================================
 
-Put all settings in `webpack.config.js`
+在JavaScript中，把指定的文件以字符串的形式import进来。
 
 ```
 npm install

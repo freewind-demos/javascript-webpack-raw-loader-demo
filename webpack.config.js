@@ -1,5 +1,5 @@
 module.exports = {
-    mode: "development",
+    mode: 'development',
     entry: './entry.js',
     output: {
         path: __dirname,
@@ -7,10 +7,9 @@ module.exports = {
     },
     module: {
         rules: [{
-            test: /\.css$/,
+            test: /\.txt$/,
             use: [
-                {loader: 'style-loader'},
-                {loader: 'css-loader'}
+                {loader: 'raw-loader'}
             ]
         }]
     }
