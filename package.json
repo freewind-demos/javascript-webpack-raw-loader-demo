@@ -1,11 +1,10 @@
 {
-  "scripts": {
-    "demo": "webpack && open index.html"
-  },
-  "devDependencies": {
-    "raw-loader": "^0.5.1",
-    "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0"
-  }
+    "scripts": {
+        "start": "webpack && open index.html"
+    },
+    "devDependencies": {
+        "raw-loader": "^0.5.1",
+        "webpack": "^4.17.1",
+        "webpack-cli": "^3.1.0"
+    }
 }
-
